@@ -1,5 +1,5 @@
-// API配置
-export const API_BASE_URL = process.env.API_BASE_URL || 'https://puzzle-game-frontend.onrender.com';
+// API 配置
+export const API_BASE_URL = 'https://puzzle-game-six-mauve.vercel.app';
 
 export const API = {
   // 认证
