@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: puzzle-backend
+    env: node
+    plan: free
+    buildCommand: cd puzzle-backend && npm install && npm run build
+    startCommand: node puzzle-backend/dist/server.js
+    envVars:
+      - key: PORT
+        value: 3002
