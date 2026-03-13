@@ -1,5 +1,5 @@
 // API配置
-export const API_BASE_URL = process.env.API_BASE_URL || 'http://localhost:3002';
+export const API_BASE_URL = process.env.API_BASE_URL || 'https://puzzle-game-frontend.onrender.com';
 
 export const API = {
   // 认证
